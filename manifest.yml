@@ -1,0 +1,6 @@
+---
+applications:
+- name: kong-api-enforcer
+  instances: 1
+  memory: 20M
+  buildback: python_buildpack
